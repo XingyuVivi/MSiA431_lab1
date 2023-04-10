@@ -1,6 +1,6 @@
 # Prompts solved by Chatgpt for Analytics Big Data Lab1 assignment
 
-**1. Task3 3**
+**1. Task3 **
 
 **Prompt**: Create a new folder in Hadoop (not in the local filesystem)
 
@@ -15,4 +15,11 @@ Use the following command to create a new folder in HDFS:
 For example, if you want to create a folder named "data" in the root directory, you can use the following command:
 "hdfs dfs -mkdir /data"
 
+
+**1. Task4 **
+
+**Prompt**: 4.	Move one file that you have just uploaded to Wolf to the new folder in Hadoop![image](https://user-images.githubusercontent.com/113918034/230818881-ae5487f8-8379-4017-b373-3176aa68bbe2.png)
+
+
+**Response**: 
 
