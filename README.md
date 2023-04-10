@@ -1,6 +1,6 @@
 # Prompts solved by Chatgpt for Analytics Big Data Lab1 assignment
 
-**Task3 **
+**Task3**
 
 **Prompt**: Create a new folder in Hadoop (not in the local filesystem)
 
@@ -16,7 +16,7 @@ For example, if you want to create a folder named "data" in the root directory, 
 "hdfs dfs -mkdir /data"
 
 
-**Task4 **
+**Task4**
 
 **Prompt**: Move one file that you have just uploaded to Wolf to the new folder in Hadoop
 
@@ -32,7 +32,7 @@ Replace "/path/to/uploaded/file" with the actual path of the file you uploaded t
 For example, if you uploaded a file named "example.txt" to the "/home/user" directory on Wolf, and you created a new folder named "data" in Hadoop's root directory, you can use the following command to move the file to the new folder:
 "hdfs dfs -mv /home/user/example.txt /data/" 
 
-**Task5 **
+**Task5**
 
 **Prompt**: Rename this file in Hadoop
 
@@ -48,7 +48,7 @@ Replace "/path/to/old/file" with the actual path of the file you want to rename,
 For example, if you want to rename a file named "example.txt" located in the "/data" directory to "newfile.txt" and move it to the "/data/newfolder" directory, you can use the following command:
 "hdfs dfs -mv /data/example.txt /data/newfolder/newfile.txt"
 
-**Task6 **
+**Task6**
 
 **Prompt**: Copy this file from Hadoop to the local filesystem
 
@@ -65,7 +65,7 @@ For example, if you want to copy a file named "example.txt" located in the "/dat
 "hdfs dfs -get /data/example.txt /home/user/example.txt"
 
 
-**Task7 **
+**Task7**
 
 **Prompt**: Create a second folder in Hadoop. Copy two small text files to it. Then extract from Hadoop a single file that is going to be the concatenation of the two files, i.e., appending one file to the other one. (use getmerge
 
@@ -90,7 +90,7 @@ Verify that the output file has been created and contains the concatenated data 
 That's it! You have successfully created a second folder in Hadoop, copied two small text files to it, and merged them into a single file using the getmerge command.
 
 
-**Task8 **
+**Task8**
 
 **Prompt**: Take a different file on your local filesystem, move it to Hadoop, and then within Hadoop copy the same file to Tucker’s folder (/user/tlewis)
 
