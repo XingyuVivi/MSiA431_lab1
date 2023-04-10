@@ -1,6 +1,6 @@
 # Prompts solved by Chatgpt
 
-*Task3*
+##Task3
 
 **Prompt**: Create a new folder in Hadoop (not in the local filesystem)
 
